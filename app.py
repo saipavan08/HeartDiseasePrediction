@@ -36,11 +36,11 @@ def inputs():
     
 
 Gender_label={'Male':1,'Female':0}
-cp_label={'Type 1':0,'Type 2':1,'Type 3':2,'Type 4':3}
+cp_label={'Type 1-Typical angina':0,'Type 2-Atypical angina':1,'Type 3-Non angina pain':2,'Type 4-Asymptomatic':3}
 fbs_label={'True':1,'False':0}
-restecg_label={'0':0,'1':1,'2':2}
+restecg_label={'Normal':0,'Having_ST_T wave abnormal':1,'left ventricular hypertrophy':2}
 exang_label={'Yes':1,'No':0}
-slope_label={'0':0,'1':1,'2':2}
+slope_label={'Upsloping':0,'Flat':1,'Down sloping':2}
 ca_label={'0':0,'1':1,'2':2,'3':3}
 thal_label={'0':0,'1':1,'2':2,'3':3}
 
